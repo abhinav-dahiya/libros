@@ -1,5 +1,25 @@
 # libros
 
-libros is a work done for a course on digital signal processing. It is mostly an exploratory work with the driving idea being the possibility of treating sequence of words as usual signals where spectral analysis can be done.
+This is an exploratory work done to try out *word embedding* + *dynamic time warping* for comparing novels.
 
-The project attempts to learn the writing styles of (few) famous novelists by using the flow of words in their works.
+
+## Running experiments
+
+#### 1. Setting up
+
+- Install requirements from `requirements.txt`
+- Keep books in `./gutenberg` as mentioned in README inside.
+
+#### 2. Train word2vec model.
+
+```
+cd ./src/utils
+python train_word2vec.py
+```
+
+#### 3. Use notebook
+
+`./src/main.ipynb`
+
+
+

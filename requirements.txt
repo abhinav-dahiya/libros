@@ -1,0 +1,11 @@
+numpy
+beautifulsoup4
+nltk
+ebooklib
+gensim
+pyprind
+matplotlib
+seaborn
+fastdtw
+scikit-learn
+scipy
